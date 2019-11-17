@@ -1,7 +1,9 @@
 <?php
 require_once "app/models/require.php";
 
+use app\controllers\TestController;
 use app\models\bootstrap\flexice\bootstrap;
+use app\models\request;
 
 
 $bootstrap = new bootstrap();
@@ -27,7 +29,9 @@ $bootstrap->setTheme($bootstrap::THEMES_BOOTSTRAP['LUX']);
         <div class="col-12 justify-content-center d-flex">
             <div class="card text-center" style="width: 18rem;">
                 <div class="card-body">
-                    <h5 class="card-title">Welcome to MVCR</h5>
+                    <h5 class="card-title"><?php
+                        $tc = new TestController(new request(["Text" => "test"]));
+                        ?></h5>
                     <h6 class="card-subtitle mb-2 text-muted">b0-002 v1.0</h6>
                     <p class="card-text">Now domain: <?php echo $_SERVER['HTTP_HOST'] ?></p>
                     <a target="_blank" href="https://github.com/fl3xice/mvcr.cc/wiki" class="card-link">API

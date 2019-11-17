@@ -1,5 +1,6 @@
 <?php
 require_once "app/models/require.php";
+require_once "app/controllers/require.php";
 require_once "app/view/require.php";
 
 use app\models\flexice\router\router;
