@@ -4,7 +4,6 @@
 namespace app\models\bootstrap\flexice;
 
 
-use app\models\flexice\router\router;
 
 class bootstrap
 {
