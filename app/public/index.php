@@ -27,12 +27,11 @@ $bootstrap = new bootstrap();
         <div class="col-12 justify-content-center d-flex">
             <div class="card text-center" style="width: 18rem;">
                 <div class="card-body">
-                    <h5 class="card-title">Welcome in</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
+                    <h5 class="card-title">Welcome to MVCR</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">b0-001 v1.0</h6>
+                    <p class="card-text">Now domain: <?php echo $_SERVER['HTTP_HOST'] ?></p>
+                    <a target="_blank" href="https://github.com/fl3xice/mvcr.cc/wiki" class="card-link">API
+                        Reference</a>
                 </div>
             </div>
         </div>
