@@ -1,5 +1,4 @@
 <?php
-require_once "app/models/require.php";
 
 use app\controllers\TestController;
 use app\models\bootstrap\flexice\bootstrap;
@@ -40,7 +39,7 @@ $bootstrap->setTheme($bootstrap::THEMES_BOOTSTRAP['LUX']);
             </div>
         </div>
     </div>
-    <script src="<?php echo $bootstrap->get_js() ?>"></script>
+    <script src="<?php echo $bootstrap->get_js(); ?>"></script>
 </div>
 
 </body>
