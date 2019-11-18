@@ -31,7 +31,7 @@ $bootstrap->setTheme($bootstrap::THEMES_BOOTSTRAP['LUX']);
                     <h5 class="card-title"><?php
                         $tc = new TestController(new request(["Text" => "test"]));
                         ?></h5>
-                    <h6 class="card-subtitle mb-2 text-muted">v1.0.0</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">v1.0.1</h6>
                     <p class="card-text">Now domain: <?php echo $_SERVER['HTTP_HOST'] ?></p>
                     <a target="_blank" href="https://github.com/fl3xice/mvcr.cc/wiki" class="card-link">API
                         Reference</a>
