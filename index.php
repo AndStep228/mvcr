@@ -16,5 +16,5 @@ $router->Get("/", function () use ($views) {
 
 $router->ErrorPage(function () use ($views) {
     $app = new app($views['404']);
-});
+}); // Must always be at the end (Всегда должно быть в конце)
 
