@@ -75,7 +75,7 @@ class router extends router_tester
         }
     }
 
-    public function E404($function)
+    public function ErrorPage($function)
     {
         if ($this->correct == 0) {
             $function();
