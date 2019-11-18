@@ -10,7 +10,7 @@ use app\models\app;
 
 $router = new router();
 
-$router->Get("/", function () use ($views, $router) {
+$router->Get("/", function () use ($views) {
     $app = new app($views['MainPage']);
 });
 
